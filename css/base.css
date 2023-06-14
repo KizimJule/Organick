@@ -206,12 +206,6 @@ site-nav__link:active {
 
   position: relative;
 }
-.btn_text {
-  /* font-size: 19px;
-  line-height: 1.68;
-  text-transform: capitalize;
-  color: #274c5b; */
-}
 .btn__container {
   width: 38px;
   height: 34px;
@@ -593,9 +587,7 @@ site-nav__link:active {
 
 .news__deckr {
   position: absolute;
-  /* left: 30px; */
   bottom: -70px;
-  /* left: 2vw; */
   left: auto;
  
 
