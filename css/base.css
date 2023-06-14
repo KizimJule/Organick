@@ -185,12 +185,16 @@ site-nav__link:active {
   cursor: pointer;
 
   padding-left: 33px;
-}
-.btn_text {
-  font-size: 19px;
+   font-size: 19px;
   line-height: 1.68;
   text-transform: capitalize;
   color: #274c5b;
+}
+.btn_text {
+  /* font-size: 19px;
+  line-height: 1.68;
+  text-transform: capitalize;
+  color: #274c5b; */
 }
 .btn__container {
   width: 38px;
@@ -282,9 +286,9 @@ site-nav__link:active {
   background-color: #274c5b;
   border: 1px solid #274c5b;
 }
-.btn_text_white {
+/* .btn_text-white {
   color: #fff;
-}
+} */
 
 .organic {
   padding: 120px 30px 139px;
