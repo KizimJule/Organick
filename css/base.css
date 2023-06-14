@@ -185,10 +185,14 @@ site-nav__link:active {
   cursor: pointer;
 
   padding-left: 33px;
+  padding-right: 71px;
+
    font-size: 19px;
   line-height: 1.68;
   text-transform: capitalize;
   color: #274c5b;
+
+  position: relative;
 }
 .btn_text {
   /* font-size: 19px;
@@ -286,9 +290,9 @@ site-nav__link:active {
   background-color: #274c5b;
   border: 1px solid #274c5b;
 }
-/* .btn_text-white {
+.btn_text-white {
   color: #fff;
-} */
+}
 
 .organic {
   padding: 120px 30px 139px;
@@ -620,13 +624,22 @@ site-nav__link:active {
   border: none;
   gap: 10px;
 }
-.btn__container_small {
+.btn__bg-small {
   width: 19px;
   height: 19px;
+
+  position: absolute;
+  top: 8px;
+  left: 108px
 }
+
 .btn__icon-arrow_small {
   width: 7.35px;
   height: 6.13px;
+
+  position: absolute;
+  top: 14px;
+  left: 114px
 }
 .btn_text-size {
   font-size: 20px;
@@ -766,4 +779,18 @@ site-nav__link:active {
 .copyright__text_span {
   color: #274c5b;
   line-height: 1.61;
+}
+
+.btn-abs1{
+position: absolute;
+top: 24px;
+right: 8px;
+
+}
+
+.btn-abs2{
+position: absolute;
+top: 35px;
+right: 20px;
+z-index: 100;
 }
