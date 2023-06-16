@@ -32,7 +32,7 @@
 
   @media (min-width: 1441px) {
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
   }
 }
 html {
@@ -146,7 +146,7 @@ site-nav__link:active {
   margin-right: 10px;
 }
 
-.btn_icon {
+.btn__icon {
   width: 26px;
   height: 24px;
 }
@@ -190,10 +190,6 @@ site-nav__link:active {
   background: #efd372;
   border: 1px solid #efd372;
   border-radius: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 24px;
   cursor: pointer;
 
   padding-left: 33px;
@@ -215,7 +211,7 @@ site-nav__link:active {
   align-items: center;
   justify-content: center;
 }
-.btn_icon-arrow {
+.btn__icon-arrow {
   width: 15px;
   height: 10px;
 }
@@ -320,7 +316,6 @@ site-nav__link:active {
   background: #f9f8f8;
   border-radius: 30px;
   box-sizing: border-box;
-
   width: 30.2vw;
 
   @media (min-width: 1479px) {
@@ -381,7 +376,6 @@ site-nav__link:active {
   background: url(../img/testimonial-bg.jpg) center / cover no-repeat;
   height: 1248px;
   padding-top: 130px;
-
   text-align: center;
 }
 
@@ -470,7 +464,6 @@ site-nav__link:active {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-
   margin-bottom: 48px;
 }
 
@@ -496,10 +489,7 @@ site-nav__link:active {
   margin-bottom: 29px;
   color: #274c5b;
 }
-.eco-friendly__list {
-}
-.eco-friendly__item {
-}
+
 .eco-friendly__item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -537,7 +527,6 @@ site-nav__link:active {
   padding: 30px 80px;
   background-color: #fff;
   border-radius: 20px;
-  /* display: inline; */
 
   position: absolute;
   top: 50%;
@@ -590,7 +579,6 @@ site-nav__link:active {
   bottom: -70px;
   left: auto;
  
-
   background-color: #fff;
   box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.14);
   border-radius: 30px;
@@ -768,7 +756,6 @@ site-nav__link:active {
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50%;
   background-color: #eff6f1;
   width: 60px;
@@ -789,6 +776,8 @@ site-nav__link:active {
 position: absolute;
 top: 24px;
 right: 8px;
+width: 38px;
+height: 34px;
 
 }
 
